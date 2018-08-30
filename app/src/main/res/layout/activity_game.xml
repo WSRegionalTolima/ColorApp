@@ -1,9 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
     tools:context=".GameActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <TextView
+        android:id="@+id/tv_stroop_word"
+        android:textSize="25dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:layout_width="@dimen/tm_btn_Game"
+                android:layout_height="@dimen/tm_btn_Game"
+                android:layout_margin="@dimen/marg_rigth"
+                 />
+            <Button
+                android:layout_width="@dimen/tm_btn_Game"
+                android:layout_height="@dimen/tm_btn_Game"
+                android:layout_margin="@dimen/marg_rigth"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="@dimen/tm_btn_Game"
+                android:layout_height="@dimen/tm_btn_Game"
+                android:layout_margin="@dimen/marg_rigth"/>
+            <Button
+                android:layout_width="@dimen/tm_btn_Game"
+                android:layout_height="@dimen/tm_btn_Game"
+                android:layout_margin="@dimen/marg_rigth"/>
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/boton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/redondo"/>
+    <TextView
+        android:id="@+id/numero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

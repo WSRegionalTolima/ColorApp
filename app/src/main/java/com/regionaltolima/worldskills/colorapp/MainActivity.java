@@ -27,11 +27,14 @@ public class MainActivity extends AppCompatActivity{
        switch (boton){
            case R.id.iniciar : ir = new Intent(getApplicationContext(), GameActivity.class);
                break;
-           case R.id.ver_puntajes : ir = new Intent(getApplicationContext(), GameActivity.class);
+           case R.id.ver_puntajes : mostrarPuntajes();
                break;
-           case R.id.configurar : ir = new Intent(getApplicationContext(), GameActivity.class);
+           case R.id.configurar : ir = new Intent(getApplicationContext(), SetActivity.class);
                break;
        }
        startActivity(ir);
+    }
+
+    public void mostrarPuntajes() {
     }
 }

@@ -4,4 +4,10 @@
     <string name="btn_iniciar">Iniciar</string>
     <string name="btn_ver_puntajes">Ver Puntajes</string>
     <string name="btn_configurar">Configuracion</string>
+
+    <!--NOMBRE COLORES-->
+    <string name="Azul">Azul</string>
+    <string name="Amarillo">Amarillo</string>
+    <string name="Rojo">Rojo</string>
+    <string name="Verde">Verde</string>
 </resources>
