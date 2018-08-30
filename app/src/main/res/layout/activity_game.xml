@@ -8,11 +8,53 @@
     android:gravity="center"
     tools:context=".GameActivity">
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/tm_btn_Game">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_stroop_words"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/marg_rigtht"
+                android:layout_marginLeft="@dimen/marg_rigtht"
+                android:text="Palabras: "/>
+            <TextView
+                android:id="@+id/tv_stroop_correct"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/marg_rigtht"
+                android:layout_marginLeft="@dimen/marg_rigtht"
+                android:text="Correctas: "/>
+            <TextView
+                android:id="@+id/tv_stroop_intents"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marg_rigtht"
+                android:text="Intentos: "/>
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btn_Pausa"
+            android:src="@drawable/ic_pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
     <TextView
         android:id="@+id/tv_stroop_word"
         android:textSize="25dp"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/marg_rigtht"/>
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -20,11 +62,12 @@
             android:layout_marginBottom="10dp">
 
             <Button
+                android:id="@+id/b1"
                 android:layout_width="@dimen/tm_btn_Game"
                 android:layout_height="@dimen/tm_btn_Game"
-                android:layout_margin="@dimen/marg_rigth"
-                 />
+                android:layout_margin="@dimen/marg_rigth" />
             <Button
+                android:id="@+id/b2"
                 android:layout_width="@dimen/tm_btn_Game"
                 android:layout_height="@dimen/tm_btn_Game"
                 android:layout_margin="@dimen/marg_rigth"/>
@@ -34,20 +77,17 @@
             android:layout_height="wrap_content">
 
             <Button
+                android:id="@+id/b3"
                 android:layout_width="@dimen/tm_btn_Game"
                 android:layout_height="@dimen/tm_btn_Game"
                 android:layout_margin="@dimen/marg_rigth"/>
             <Button
+                android:id="@+id/b4"
                 android:layout_width="@dimen/tm_btn_Game"
                 android:layout_height="@dimen/tm_btn_Game"
                 android:layout_margin="@dimen/marg_rigth"/>
         </LinearLayout>
 
-    <Button
-        android:id="@+id/boton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:background="@drawable/redondo"/>
     <TextView
         android:id="@+id/numero"
         android:layout_width="wrap_content"
