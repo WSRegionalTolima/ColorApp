@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ColorApp</string>
+
+    <string name="btn_iniciar">Iniciar</string>
+    <string name="btn_ver_puntajes">Ver Puntajes</string>
+    <string name="btn_configurar">Configuracion</string>
 </resources>
